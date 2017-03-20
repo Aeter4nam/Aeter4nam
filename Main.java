@@ -1,3 +1,9 @@
+class Stack {
+    
+    
+    
+}
+
 class Main {
     public static void main(String argc[]) {
         
