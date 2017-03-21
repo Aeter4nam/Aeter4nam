@@ -4,7 +4,7 @@ class Stack {
     int index = -1;
     
     void push(int intValue) {
-        if(index <= 7) {
+        if(index < 8) {
             System.out.println("Array full");
         }
         else {
@@ -27,7 +27,9 @@ class Stack {
 class Main {
     public static void main(String argc[]) {
         
-        
+        Stack stack = new Stack();
+        stack.push(5);
+        System.out.println(stack.pull());
         
     }
 }
