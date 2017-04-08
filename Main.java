@@ -1,7 +1,7 @@
-class Text {
+class Main {
     
     public static void main(String argc[]) {
-        double doubleValue;
+        
     }
     
 }
